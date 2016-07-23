@@ -1,6 +1,6 @@
 {
   "name": "bitcore-message-dash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bitcoin Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -23,7 +23,7 @@
     "url": "https://github.com/dashpay/bitcore-message-dash.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "0.13.16"
+    "bitcore-lib-dash": "^0.13.17"
   },
   "devDependencies": {
     "bitcore-build-dash": "dashpay/bitcore-build-dash",
