@@ -21,7 +21,7 @@
     "url": "https://github.com/dashpay/bitcore-message-dash.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.13.18"
+    "bitcore-lib-dash": "^0.14.1"
   },
   "devDependencies": {
     "bitcore-build-dash": "dashpay/bitcore-build-dash",
