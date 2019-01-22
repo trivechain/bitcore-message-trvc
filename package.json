@@ -21,7 +21,7 @@
     "url": "https://github.com/trivechain/bitcore-message-trvc.git"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.15.2"
+    "bitcore-lib-trvc": "^0.15.2"
   },
   "devDependencies": {
     "bitcore-build-trvc": "trivechain/bitcore-build-trvc",

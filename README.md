@@ -1,29 +1,29 @@
-# Dash Message Verification and Signing for Bitcore-Dash
+# Dash Message Verification and Signing for bitcore-trvc
 
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-message-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-dash)
-[![Build Status](https://img.shields.io/travis/dashpay/bitcore-message-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-message-dash)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-dash.svg?style=flat-square)](https://coveralls.io/r/dashpay/bitcore-message-dash?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-node-trvc.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-node-trvc)
+[![Build Status](https://img.shields.io/travis/trivechain/bitcore-node-trvc.svg?branch=master&style=flat-square)](https://travis-ci.org/trivechain/bitcore-node-trvc)
+[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-node-trvc.svg?style=flat-square)](https://coveralls.io/r/trivechain/bitcore-node-trvc?branch=master)
 
-bitcore-message-dash adds support for verifying and signing dash messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-node-trvc adds support for verifying and signing dash messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main bitcore-dash repo](https://github.com/dashpay/bitcore-dash) for more information.
+See [the main bitcore-trvc repo](https://github.com/trivechain/bitcore-trvc) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message-dash
+npm install bitcore-node-trvc
 ```
 
 ```sh
-bower install bitcore-message-dash
+bower install bitcore-node-trvc
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-dash');
-var Message = require('bitcore-message-dash');
+var bitcore = require('bitcore-lib-trvc');
+var Message = require('bitcore-node-trvc');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -39,7 +39,7 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/dashpay/bitcore-dash/blob/master/CONTRIBUTING.md) on the main bitcore-dash repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/trivechain/bitcore-trvc/blob/master/CONTRIBUTING.md) on the main bitcore-trvc repo for information about how to contribute.
 
 ## License
 
