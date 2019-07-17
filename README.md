@@ -12,18 +12,18 @@ See [the main bitcore-trvc repo](https://github.com/trivechain/bitcore-trvc) for
 ## Getting Started
 
 ```sh
-npm install bitcore-node-trvc
+npm install bitcore-message-trvc
 ```
 
 ```sh
-bower install bitcore-node-trvc
+bower install bitcore-message-trvc
 ```
 
 To sign a message:
 
 ```javascript
 var bitcore = require('bitcore-lib-trvc');
-var Message = require('bitcore-node-trvc');
+var Message = require('bitcore-message-trvc');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
